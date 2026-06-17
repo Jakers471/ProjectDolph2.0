@@ -1,0 +1,30 @@
+{
+  "_comment": "Nando \u2014 customize risk and parser settings here.",
+  "risk": {
+    "min_confidence": 0.55,
+    "max_open_positions": 3,
+    "kill_switch": false,
+    "allowed_asset_types": [
+      "CRYPTO",
+      "STOCK",
+      "OPTION"
+    ],
+    "allowed_actions": [
+      "ENTRY",
+      "TRIM",
+      "EXIT",
+      "ADD"
+    ]
+  },
+  "parser": {
+    "corpus_path": "data/{trader}/messages.jsonl",
+    "signals_path": "data/{trader}/signals/",
+    "active": true
+  },
+  "broker": {
+    "dry_run": true,
+    "trade_notional": 100.0,
+    "trim_fraction": 0.5,
+    "starting_balance": 7000
+  }
+}

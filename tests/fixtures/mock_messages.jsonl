@@ -1,0 +1,15 @@
+{"id": "f01", "label": "crypto_long_template", "content": "Long\n\nCoin: BTC\nEntry:  1)94500 2)93500\nTargets:  1)95000 2)96000 3)97000 4)98000\nLeverage: 20x\nStop: 92000", "expected": {"action": "ENTRY", "side": "LONG", "symbol": "BTC", "asset_type": "CRYPTO"}}
+{"id": "f02", "label": "crypto_short_template", "content": "Short\n\nCoin: BTC\nEntry: 1)91000 2)92500\nTargets:  1)90500 2)90000 3)89000 4)88000\nLeverage: 20x", "expected": {"action": "ENTRY", "side": "SHORT", "symbol": "BTC", "asset_type": "CRYPTO"}}
+{"id": "f03", "label": "options_entry_contract", "content": "IBIT 42c\n@1.50\nLooking for breakout to $45 then tap pre-market high\nStop at entry", "expected": {"action": "ENTRY", "symbol": "IBIT", "asset_type": "OPTION"}}
+{"id": "f04", "label": "options_profit_trim", "content": "Ibit calls up 20%\n$92 to $110\nTrimming here and setting stops above entry", "expected": {"action": "TRIM", "symbol": "IBIT", "asset_type": "OPTION"}}
+{"id": "f05", "label": "stopped_out", "content": "Stopped out at entry\nNice little cash we grabbed on it. They holding that $40 level tight", "expected": {"action": "EXIT"}}
+{"id": "f06", "label": "trim_tp_hit", "content": "Tp2 hit for btc, trimming here, setting stops at entry for the rest", "expected": {"action": "TRIM", "symbol": "BTC"}}
+{"id": "f07", "label": "add_dca", "content": "Adding onto my hood short, avg cons are $145", "expected": {"action": "ADD", "symbol": "HOOD"}}
+{"id": "f08", "label": "cutting_exit", "content": "Cutting Tao here. Put us down to 10% on the account. We had the momentum but Tao gave up", "expected": {"action": "EXIT", "symbol": "TAO"}}
+{"id": "f09", "label": "noise_social", "content": "Guys show love to your boy on the gram, like and comment, appreciate ya! https://www.instagram.com/p/DVrwjybF71p/", "expected": {"action": "NOISE"}}
+{"id": "f10", "label": "noise_gm", "content": "GM! Challenge account up about 2%, great week everyone. Nothing to report, just riding it out.", "expected": {"action": "NOISE"}}
+{"id": "f11", "label": "unsure_watching", "content": "Watching BTC closely here, might enter if we break 95k. Not in yet.", "expected": {"action": "UNSURE"}}
+{"id": "f12", "label": "crypto_high_risk_long", "content": "Crypto play\nHigh risk\nLong\n\nCoin: River\nEntry:  1)18.050 2)17.050\nTargets:  1)18.150 2)18.3 3)18.5 4)18.8 5)19 6)20\nLeverage: 10x", "expected": {"action": "ENTRY", "side": "LONG", "symbol": "RIVER", "asset_type": "CRYPTO"}}
+{"id": "f13", "label": "options_entry_explicit", "content": "Hood 106c\n@0.40\n15 contracts\nStop below 0.20\nLooking for push to $110", "expected": {"action": "ENTRY", "symbol": "HOOD", "asset_type": "OPTION"}}
+{"id": "f14", "label": "all_tps_hit", "content": "All TPs hit for btc, what a gift! Bang bang", "expected": {"action": "EXIT", "symbol": "BTC"}}
+{"id": "f15", "label": "btc_long_brief", "content": "Btc long\nEntry 1)89000 2)87000\nTargets 1)91000 2)93000 3)95000\nLeverage 20x\nStop 85000", "expected": {"action": "ENTRY", "symbol": "BTC", "side": "LONG"}}

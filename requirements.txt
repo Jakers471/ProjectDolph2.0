@@ -1,0 +1,20 @@
+# Core data / charting
+openpyxl>=3.1
+matplotlib>=3.7
+
+# Live dashboard server
+fastapi>=0.110
+uvicorn>=0.29
+
+# Environment variable loading
+python-dotenv>=1.0
+
+# Alpaca paper/live trading
+alpaca-py>=0.20
+
+# Discord event-driven listener (full bot — requires token)
+discord.py>=2.3
+
+# Windows toast notification watcher (no bot token required — watcher-only mode)
+# Windows only — remove this line on Linux/Mac
+uiautomation>=2.0

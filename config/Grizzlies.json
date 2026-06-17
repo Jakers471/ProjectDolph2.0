@@ -1,0 +1,31 @@
+{
+  "risk": {
+    "min_confidence": 0.6,
+    "max_open_positions": 10,
+    "kill_switch": false,
+    "allowed_asset_types": [
+      "CRYPTO",
+      "OPTION"
+    ],
+    "allowed_actions": [
+      "ENTRY",
+      "TRIM",
+      "EXIT",
+      "ADD"
+    ]
+  },
+  "parser": {
+    "corpus_path": "data/{trader}/messages.jsonl",
+    "signals_path": "data/{trader}/signals/",
+    "active": true
+  },
+  "broker": {
+    "dry_run": true,
+    "trade_notional": 500,
+    "trim_fraction": 0.5,
+    "starting_balance": 7000,
+    "default_quantity": 1,
+    "add_quantity": 0.5
+  },
+  "_comment": "Grizzlies \u2014 last saved 2026-06-17T19:14:00Z"
+}

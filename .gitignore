@@ -1,0 +1,29 @@
+# Environment — never commit keys
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data — large/generated files, not source
+data/
+*.db
+*.db-journal
+
+# Logs & temp output
+server_out.txt
+server_err.txt
+_debug_page.html
+
+# Alpaca API scratch
+alpaca_api/
+
+# Test/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
